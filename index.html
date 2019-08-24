@@ -2,10 +2,54 @@
 <html lang="en">
 <head>
     <title>Exercise 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <style>
+        body{
+          background: greenyellow;
+        }
+        .center{
+            margin: auto;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <center>
+    <div class="center">
         <h1>Biodata</h1>
-    </center>
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <label>Name</label>
+                </div>
+                <div class="col-10">
+                    <input type="text" value="Septian Cahyadi" readonly>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label>Address</label>
+                </div>
+                <div class="col-10">
+                    <input type="text" value="Jalan Layungsari 3 No. 24 Bogor" readonly>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label>Email</label>
+                </div>
+                <div class="col-10">
+                    <input type="email" value="iancahyadi@gmail.com" readonly>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <label>Phone Number</label>
+                </div>
+                <div class="col-10">
+                    <input type="text" value="628999506210" readonly>  
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
